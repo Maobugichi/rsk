@@ -94,12 +94,14 @@ const GameBoard = ({score,setScore}) => {
         <div className="grid place-items-center w-full">
             {!final ? (
             <GameBoardContent
+             layoutId="underline"
              Gameplay={Gameplay}
              GamePiece={GamePiece}
              animations={animations}
              handleClick={handleClick}
-            />) :  (
+            />) : (
             <GameResult
+             layoutId="underline"
              src={imgSrc.src}
              compSrc={imgSrc.compSrc}
              result={result}

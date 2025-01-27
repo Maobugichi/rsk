@@ -16,6 +16,9 @@ export default {
       screens: {
         'xs': {'raw': '(max-width: 344px)'},
       },
+      fontFamily:{
+        "barto":["Fira Code", "serif"]
+      }
 
     },
   },
